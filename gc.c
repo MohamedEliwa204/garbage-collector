@@ -45,7 +45,7 @@ void check_and_delete(HeapObject *obj);
 int main()
 {
     FILE *input_csv = fopen("gc_testcases.csv", "r");
-    FILE *output_csv = fopen("23010763.answers.csv", "w");
+    FILE *output_csv = fopen("23010763_answers.csv", "w");
 
     if (!input_csv || !output_csv)
     {
